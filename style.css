@@ -10,9 +10,12 @@ h2{
 }
 .orange-color{
     color: orange;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
 .flexibe_container{
     display: flex; 
+   
     margin-bottom: 150px;
 }
 .half-width{
@@ -24,6 +27,7 @@ h2{
     width: 80%;
 }
 .link-button{
+    
     text-decoration: none;
    background-image: linear-gradient(orange, tomato );
      padding: 10px 40px;
@@ -46,10 +50,11 @@ h2{
     background-position: left;
 }
 .expreiece-item{
-    width: 40%;
-    margin-left: 5%;
+    width: 30%;
+    height: 400px;
+    margin-left: 6%;
     margin-right: 5%;
-    padding-left: 20px;
+    padding-left: 40px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px grey;
 }
